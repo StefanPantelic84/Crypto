@@ -45,16 +45,10 @@ body {
   background: rgb(231, 203, 203);
   margin: 10px;
   padding-top: 10px;
+  transition: 0.5s;
 }
 .coin:hover {
-  box-shadow: 2px 2px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 350px;
-  height: 300px;
-  overflow: visible;
+  transform: scale(1.2);
 }
 
 .coin img {
