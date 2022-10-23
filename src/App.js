@@ -36,6 +36,7 @@ function App() {
         {filteredItems.map((coin) => {
           return (
             <NewCoin
+              key={coin.name}
               coinName={coin.name}
               coinSymbol={coin.symbol}
               coinPrice={coin.price}
